@@ -24,7 +24,6 @@ safe-outputs:
     target: triggering
     allowed-branches: ["ghaw-control-trigger"]
     max: 1
-    github-token: ${{ secrets.GHAW_MERGE_TOKEN }}
 ---
 
 # Owned triggering-target control
